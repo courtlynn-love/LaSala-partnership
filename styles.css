@@ -779,6 +779,17 @@ strong { font-weight: 600; }
   text-transform: uppercase;
   color: var(--text-muted);
 }
+/* Deliberately the same metrics as the line above, only in oxblood, so the
+   venue lands as a second fact in the same register rather than as a new
+   piece of typography. All three cards carry it — no per-card variants. */
+.xp__venue {
+  margin: .3rem 0 0;
+  font-size: .78rem;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+}
 .xp__desc {
   margin: 1.1rem 0 0;
   max-width: 46ch;
